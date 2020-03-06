@@ -1,9 +1,7 @@
-import React,{Component} from 'react'
-class Keypad extends Component {
-    constructor(){
-        super()
-    }
-        keyUpHandler = () =>{
+import React ,{Component} from 'react'
+
+export default class Keypad extends Component{
+    keyUpHandler = () =>{
 console.log('Entering password...');
     }
     render(){
